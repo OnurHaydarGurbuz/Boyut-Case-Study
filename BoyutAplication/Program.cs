@@ -4,6 +4,8 @@ using BoyutAplication.Services;
 
 
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -18,7 +20,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=invoice_status.db"));
 
 
+
 builder.Services.AddMemoryCache();
+
 
 builder.Services.AddScoped<IMockIntegratorService, MockIntegratorService>();
 builder.Services.AddScoped<IInvoiceStatusService, InvoiceStatusService>();

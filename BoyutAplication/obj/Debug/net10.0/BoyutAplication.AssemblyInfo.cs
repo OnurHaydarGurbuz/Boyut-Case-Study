@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoyutAplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f98065940e9a65c35c71d19c5ad7efe7d6c66cc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+975568dbc5edbfaf7a3ebf81f3d0bb4255b1a159")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoyutAplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoyutAplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
