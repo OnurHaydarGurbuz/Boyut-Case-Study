@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WQq63xhoja4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hayda\\Desktop\\Boyut Case Study\\BoyutAplication\\BoyutAplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hayda\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "C:\\Users\\hayda\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

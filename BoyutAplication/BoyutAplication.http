@@ -1,0 +1,6 @@
+@BoyutAplication_HostAddress = http://localhost:5298
+
+GET {{BoyutAplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
