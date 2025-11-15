@@ -1,5 +1,7 @@
 using BoyutAplication.Data;
 using Microsoft.EntityFrameworkCore;
+using BoyutAplication.Services;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +19,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 
 builder.Services.AddMemoryCache();
+
+builder.Services.AddScoped<IMockIntegratorService, MockIntegratorService>();
+builder.Services.AddScoped<IInvoiceStatusService, InvoiceStatusService>();
+
 
 var app = builder.Build();
 
